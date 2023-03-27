@@ -28,7 +28,7 @@ As for data fetching from backend we chose axios which is a package that helps y
 ## Step 1: Clone the Base code repository
 Clone Repository
 ```js
- git clone git@repo.ekbana.info:frontend-v2/bootstrap-codebase.git
+ git clone git@github.com:mr339/cheers-beers.git
 ```
 IF using zipped file
 ```js
