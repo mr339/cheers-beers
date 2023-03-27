@@ -1,0 +1,36 @@
+.my_nav{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.my_nav a.active {
+    color: #000; 
+    font-weight: bolder;
+    opacity: 1.5;
+  }
+  
+.my_nav a.inactive {
+  color: #000; 
+  opacity: 0.3; /* replace with desired color */
+}
+
+.my_nav a {
+  color: #262626;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+}
+
+.search_bar{
+  height: 28px;
+  padding: 0 16px;
+  @media screen and (max-width: 767px) {
+    height: 24px;
+    padding: 0 16px;
+    font-size: 12px;
+  }
+}

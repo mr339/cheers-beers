@@ -1,0 +1,30 @@
+
+.save_button {
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #2B66BB;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #2B66BB;
+    cursor: pointer;
+    width: 90px;
+    margin-left: 12px;
+    &:hover {
+      background-color: #15397B;
+    }
+  }
+
+  .add_beer_button {
+    outline: none;
+    // padding: 0.5rem 1rem;
+    border: 1px solid #2B66BB;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #2B66BB;
+    cursor: pointer;
+    margin-left: auto;
+    &:hover {
+      background-color: #15397B;
+      color: #fff;
+    }
+  }

@@ -1,0 +1,16 @@
+.btn {
+    &-primary {
+        @media screen and (max-width: 767px) {
+            font-size: 14px;
+            padding: 0.2rem 0.5rem;
+        }
+        &:disabled {
+            background-color: #0d6efd;
+            cursor: not-allowed;
+            pointer-events: all;
+            &:hover {
+                background-color: #0d6efd;
+            }
+        }
+    }
+}

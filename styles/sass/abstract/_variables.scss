@@ -1,0 +1,9 @@
+// Required
+@import '../../../node_modules/bootstrap/scss/functions';
+$text-dark : #545454 !important;
+.text-dark {
+    color: $text-dark !important;
+}
+// Required
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/mixins';

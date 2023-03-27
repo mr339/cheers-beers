@@ -1,0 +1,137 @@
+.card_body {
+  display: flex;
+  flex-direction: row;
+  // border: 1px solid #ddd;
+  border-radius: 5px;
+  // box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background-color: white;
+  padding: 30px;
+  // margin-bottom: 20px;
+}
+
+.card_body:hover {
+  background-color: #F3F8FD;
+  cursor: pointer;
+}
+  
+.card_image {
+  width: 100%;
+  object-fit: contain;
+  /* max-width: 100px; */
+  height: 100%;
+  margin-right: 1rem;
+}
+
+.card_item {
+    margin-bottom: 20px;
+    &_index {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #e4c07a;
+      padding: 0px 7px;
+      color: #fff;
+    }
+}
+
+.card_title{
+  font-size: 20px;
+  font-weight: 550;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} 
+
+.card_subtitle {
+  color: #E4C079;
+  font-size: 14px;
+  margin: 5px 0;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card_info {
+  display: 'flex';
+  flex-direction: 'column'
+}
+
+.card_image_wrap{
+  width: 50px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+.noBeer_div {
+  background-color: #FAFAFA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+}
+
+.noBeer_content {
+  color: #9F9F9F;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.tooltip_content {
+  display: flex;
+  padding: 5px;
+  background-color: #000000;
+  color: #ABABAB;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.tooltip_content::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+}
+
+.card_container {
+  position: relative;
+}
+
+.card_container i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.click_button {
+  background-color: transparent;
+   border: none;
+   color: #5888CC;
+   cursor: pointer;
+   font-weight: 600;
+   font-size: 1rem;
+   padding: 0;
+}
+
+.cross_delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.5);
+  }
+}
+
+
+
+

@@ -1,0 +1,27 @@
+.error {
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+.button_wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.beer_image_wrapper {
+    border: 1px solid #EFEFEF;
+    height: 100px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.beer_image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.error_exlamation {
+    margin-bottom: 1rem;
+}
